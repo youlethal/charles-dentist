@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "BUSINESS_NAME": "charles dentist",
+    "TEMPLATE_ID": "dentist-modern",
+    "MODULES": "Booking,Blog,CRM,booking,staff,gallery",
+    "THEME": "Light"
+  }
+}
